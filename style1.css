@@ -18,6 +18,12 @@ body {
 	padding: 8px 12px;
 }
 
+.pages button{
+	color: white;
+	font-size: 18px;
+	padding: 8px 12px;
+}
+
 .pages a:hover{
 	background-color: #E67E22;
 	color: white;
@@ -319,8 +325,3 @@ ul li {
 	border-radius: 20px;
 	padding: 20px;
 }
-
-
-
-
-
