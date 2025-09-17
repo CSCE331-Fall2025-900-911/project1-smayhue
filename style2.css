@@ -2,6 +2,7 @@ body {
 	margin-left: 200px;
 	margin-right: 0;
 	margin-bottom: 0;
+        margin-top: 0;
 	font-family: Arial, sans-serif;
 	background-color: #FAFAFA;
 }
@@ -183,6 +184,164 @@ body {
 .pocketChange:hover p{
   transform: translateX(calc(100% + 512px + 20px + 20px));
 }
+
+a {
+	color: #003366;
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+}
+
+.portIntroImg {
+	display: flex;
+	width: 100%;
+}
+
+.portIntroImg img{
+	flex: 1;
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+.image-container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.image-container img {
+  width: 100%;
+  display: block;
+  flex: 1;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+#PORTFOLIO {
+  position: absolute;
+  top: 35%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+.profLinks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #003366;
+  font-size: 20px;
+  color: white;
+}
+
+.profLinks a{
+	color: white;
+}
+
+.profLinks a:hover{
+	color: orange;
+}
+
+.pixelMouse{
+  display: flex;     
+  flex-direction: row;      
+  align-items: center;            
+  gap: 20px;                      
+  position: relative;
+  transform: translateX(0);
+  transition: transform 1s ease; 
+  cursor: pointer;
+  background-color: #FFD8A8;
+}
+
+.pixelMouse:hover{
+  transform: translateX(calc(100vw - 640px - 200px - 15px));
+}
+
+.pixelMouse p{
+  background-color: #FFD8A8;
+  padding: 15px;
+  border-radius: 8px;
+  transform: translateX(-100vw);
+  transition: transform 1s ease;
+}
+
+.pixelMouse:hover p{
+  transform: translateX(calc(-100% - 640px - 20px - 20px));
+}
+
+.fourBitALU{
+  display: flex;     
+  flex-direction: row;      
+  align-items: center;            
+  gap: 20px;                      
+  position: relative;
+  transform: translateX(0);
+  transition: transform 1s ease; 
+  cursor: pointer;
+  background-color: #FFD8A8;
+}
+
+.fourBitALU:hover{
+  transform: translateX(calc(100vw - 400px - 200px - 15px));
+}
+
+.fourBitALU p{
+  background-color: #FFD8A8;
+  padding: 15px;
+  border-radius: 8px;
+  transform: translateX(-100vw);
+  transition: transform 1s ease;
+}
+
+.fourBitALU:hover p{
+  transform: translateX(calc(-100% - 400px - 20px - 20px));
+}
+
+.CASComp{
+  display: flex;     
+  flex-direction: row;      
+  align-items: center;            
+  gap: 20px;                      
+  position: relative;
+  transform: translateX(0);
+  transition: transform 1s ease; 
+  cursor: pointer;
+  background-color: #FFD8A8;
+}
+
+.CASComp:hover{
+  transform: translateX(calc(100vw - 640px - 200px - 15px));
+}
+
+.CASComp p{
+  background-color: #FFD8A8;
+  padding: 15px;
+  border-radius: 8px;
+  transform: translateX(-100vw);
+  transition: transform 1s ease;
+}
+
+.CASComp:hover p{
+  transform: translateX(calc(-100% - 640px - 20px - 20px));
+}
+
+.futureIdeas{
+	display: block;
+	text-align: center;
+	background-color: #FFD8A8;
+	color: black;
+	padding: 20px;
+}
+
 
 .content{
   margin-left: 200px;
